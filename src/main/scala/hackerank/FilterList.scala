@@ -1,9 +1,9 @@
 package hackerank
 
-import logging.LazyLogging
+import logging.LoggingUtil
 
 
-object FilterList extends LazyLogging {
+object FilterList extends LoggingUtil {
 
   def main(args: Array[String]): Unit = {
     log.info("Inside main method")

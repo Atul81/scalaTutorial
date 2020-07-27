@@ -1,10 +1,10 @@
 package hackerank
 
-import logging.LazyLogging
+import logging.LoggingUtil
 
 import scala.collection.mutable.ListBuffer
 
-object ListReplication extends LazyLogging{
+object ListReplication extends LoggingUtil{
 
   def main(args: Array[String]): Unit = {
     log.info("Inside main method")

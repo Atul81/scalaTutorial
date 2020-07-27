@@ -1,16 +1,15 @@
 package hackerank
 
-import logging.LazyLogging
+import logging.LoggingUtil
 
 import scala.collection.mutable.ListBuffer
 
-object FilterPositionList extends LazyLogging {
+object FilterPositionList extends LoggingUtil {
 
   def main(args: Array[String]): Unit = {
     log.info("Inside main method for ==> ".concat(this.getClass.getName))
     val filterList: List[Int] = fWithFor(List(1, 2, 3, 4))
-    log.info(filterList(1).toString)
-
+    log.info(filterList.toString)
   }
 
   def f(arr: List[Int]): List[Int] = {
